@@ -282,8 +282,10 @@ td, th {
 .container .jumbotron {
   background-image: url("../images/top-banner.png");
   background-size: cover;
-  height: 100vh;
-  border-radius: 0px; }
+  height: 630px;
+  border-radius: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px; }
 
 .content-copy {
   margin-top: 180px; }
@@ -306,3 +308,20 @@ td, th {
     text-align: center;
     font-size: 2em;
     margin-top: 1em; }
+
+.show-services .col-md-4 {
+  padding: 0; }
+  .show-services .col-md-4:hover {
+    transform: scaleX(1.1) scaleY(1.1);
+    transition: all 0.3s ease-in;
+    z-index: 1000; }
+  .show-services .col-md-4 img {
+    max-height: 555px; }
+    .show-services .col-md-4 img img {
+      max-height: 555px; }
+
+.show-services .col-md-4:nth-child(1) {
+  padding-left: 15px; }
+
+.show-services .col-md-4:nth-child(3) {
+  padding-right: 15px; }

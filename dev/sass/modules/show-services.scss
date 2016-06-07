@@ -1,0 +1,29 @@
+.show-services {
+	.col-md-4 {
+		padding: 0;
+
+		&:hover {
+			transform: scaleX(1.1) scaleY(1.1);
+        	transition: all 0.3s ease-in;
+        	z-index: 1000;
+		}
+		
+
+		img {
+			max-height: 555px;
+
+			img {
+				max-height: 555px;
+			}
+		}
+		
+	}
+
+	.col-md-4:nth-child(1) {
+		padding-left: 15px;
+	}
+
+	.col-md-4:nth-child(3) {
+		padding-right: 15px;
+	}
+}
