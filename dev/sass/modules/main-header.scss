@@ -1,0 +1,38 @@
+
+.container {
+	.jumbotron {
+		background-image: url('../images/top-banner.png');
+		background-size: cover;
+		height: 100vh;
+		border-radius: 0px;
+	}
+}
+
+.content-copy {
+	margin-top: 180px;
+	
+	h1 {
+		text-align: center;
+		color: white;
+		font-size: 3.5em;
+		font-weight: normal;
+	}
+
+	p {
+		max-width: 654px;
+		text-align: center;
+		color: white;
+		margin: 0 auto;
+		margin-top: 1em;
+		font-size: 1.2em;
+	}
+
+	h2 {
+		max-width: 500px;
+		margin: 0 auto;
+		color: white;
+		text-align: center;
+		font-size: 2em;
+		margin-top: 1em;
+	}
+}
