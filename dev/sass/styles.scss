@@ -8,8 +8,7 @@
 // mixins
 @import "core/mixins/aligns";		// aligns
 @import "core/mixins/animations";	// animations
-@import "core/mixins/bp";			// BreakPoints Media queries
-@import "core/mixins/bg";			// Backgrounds
+@import "core/mixins/bp";			// BreakPoints Media queries			// Backgrounds
 @import "core/mixins/button";		// Buttons
 @import "core/mixins/img";			// Images Optimization
 @import "core/mixins/map";			// Google Maps
@@ -24,14 +23,8 @@
 @import "vendors/slick";
 @import "vendors/slick-theme"; */
 
-body {
-	font-family: 'Roboto';
-}
-
-p {
-	font-family: 'Roboto';
-}
-
+@import "core/mixins/bg";
+@import "core/mixins/break-points.scss";
 @import "modules/main-header.scss";
 @import "modules/show-services.scss";
 @import "modules/main-content.scss";

@@ -258,16 +258,6 @@ td, th {
 		@include bp("min-width: 480px") { background: yellow; }
 	}
 */
-/* Aplica un color doble a un contendor */
-/*-- Usage --*/
-/*
-	two-color-bg(#ffffff, #000000, 15deg);
-*/
-/* Aplica un color doble a un boton */
-/*-- Usage --*/
-/*
-  two-color-btn(#ffffff, #000000, 15deg);
-*/
 /* PX to REM */
 /*-- Usage --*/
 /*
@@ -280,12 +270,16 @@ td, th {
 /* @import "vendors/sidr";
 @import "vendors/slick";
 @import "vendors/slick-theme"; */
-body {
-  font-family: 'Roboto'; }
-
-p {
-  font-family: 'Roboto'; }
-
+/* Aplica un color doble a un contendor */
+/*-- Usage --*/
+/*
+	two-color-bg(#ffffff, #000000, 15deg);
+*/
+/* Aplica un color doble a un boton */
+/*-- Usage --*/
+/*
+  two-color-btn(#ffffff, #000000, 15deg);
+*/
 .container .jumbotron {
   background-image: url("../images/top-banner.png");
   background-size: cover;
