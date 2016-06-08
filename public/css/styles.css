@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100italic,700|Lato:400,100,300,700|Source+Sans+Pro:400,300,700|Raleway:400,300,700,500,900);
 *,
 *:before,
 *:after {
@@ -279,6 +280,12 @@ td, th {
 /* @import "vendors/sidr";
 @import "vendors/slick";
 @import "vendors/slick-theme"; */
+body {
+  font-family: 'Roboto'; }
+
+p {
+  font-family: 'Roboto'; }
+
 .container .jumbotron {
   background-image: url("../images/top-banner.png");
   background-size: cover;
@@ -349,3 +356,27 @@ td, th {
   max-width: 125px;
   margin: 0 auto;
   margin-top: 70px; }
+
+.footer-contacto {
+  margin-top: 120px;
+  background: #a96082;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .footer-contacto img {
+    height: 175px;
+    width: 125px; }
+
+.footer-wrap h2 {
+  color: white;
+  font-size: 3.2em; }
+
+.footer-wrap p {
+  color: white; }
+
+.footer-image {
+  margin-top: 30px;
+  padding-bottom: 30px; }
+  .footer-image img {
+    max-width: 141px;
+    max-height: 74px;
+    display: block; }

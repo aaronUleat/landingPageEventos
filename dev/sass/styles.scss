@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100italic,700|Lato:400,100,300,700|Source+Sans+Pro:400,300,700|Raleway:400,300,700,500,900);
+
 // base
 @import "core/base/vars";           // Global Variables
 @import "core/base/global";         // Global normalize reset
@@ -22,6 +24,15 @@
 @import "vendors/slick";
 @import "vendors/slick-theme"; */
 
+body {
+	font-family: 'Roboto';
+}
+
+p {
+	font-family: 'Roboto';
+}
+
 @import "modules/main-header.scss";
 @import "modules/show-services.scss";
 @import "modules/main-content.scss";
+@import "modules/footer.scss";
