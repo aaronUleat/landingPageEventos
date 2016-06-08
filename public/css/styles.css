@@ -325,3 +325,27 @@ td, th {
 
 .show-services .col-md-4:nth-child(3) {
   padding-right: 15px; }
+
+.main-content .row {
+  margin-top: 125px; }
+
+.servicio-texto {
+  max-height: 155px; }
+  .servicio-texto img {
+    height: 155px; }
+  .servicio-texto p {
+    margin-top: 30px;
+    font-size: 1.2em; }
+
+.catering h2 {
+  font-size: 3.5em; }
+
+.catering p {
+  margin-top: 30px;
+  font-size: 1.2em; }
+
+.menu-service img {
+  height: 213px;
+  max-width: 125px;
+  margin: 0 auto;
+  margin-top: 70px; }
