@@ -1,48 +1,19 @@
-/* Breakpoints */
-@mixin bp($break) {
-	@if $break == lg {
-		@media (min-width: $lg) { @content; }
-	}
-	@else if $break == md {
-		@media (min-width: $md) { @content; }
-	}
-	@else if $break == sm {
-		@media (min-width: $sm) { @content; }
-	} @else {
-		@media ($break) { @content; }
-	}
-}
+@mixin breakpoint($point) {
+   @if $point == desktop {
+     @media (min-width: 70em) { @content ; }
+  }
+   @else if $point == laptop {
+     @media (min-width: 64em) { @content ; }
+  }
+    @else if $point == tablet {
+     @media (min-width: 50em) { @content ; }
+  }
+   @else if $point == phablet {
+     @media (min-width: 37.5em)  { @content ; }
+  }
+  @else if $point == mobileonly {
+     @media (max-width: 37.5em)  { @content ; }
 
-/*-- Usage --*/
-/* 
-	body {
-		background: pink;
-		@include bp(lg) { background: red; }
-		@include bp(md) { background: cyan; }
-		@include bp(sm) { background: green; }
-		@include bp("min-width: 480px") { background: yellow; }
-	}
-*/
-
-// --------------------------------------------------------------------------------------------------------------
-
-@mixin showOnlyDesktop(){
-  display: none;
-    @include bp(md){
-      display: block;
-    }
-}
-
-@mixin showDesktop(){
-  display: none;
-
-    @include bp(sm){
-      display: block;
-    }
-}
-
-@mixin showMobile(){
-  @include bp(sm){
-    display: none;
   }
 }
+

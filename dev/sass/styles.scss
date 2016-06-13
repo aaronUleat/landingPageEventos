@@ -1,31 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100italic,700|Lato:400,100,300,700|Source+Sans+Pro:400,300,700|Raleway:400,300,700,500,900);
-
-// base
-@import "core/base/vars";           // Global Variables
-@import "core/base/global";         // Global normalize reset
-@import "core/base/fonts";          // text fonts
-@import "core/base/icon-fonts";     // Icon fonts
-// mixins
-@import "core/mixins/aligns";		// aligns
-@import "core/mixins/animations";	// animations
-@import "core/mixins/bp";			// BreakPoints Media queries			// Backgrounds
-@import "core/mixins/button";		// Buttons
-@import "core/mixins/img";			// Images Optimization
-@import "core/mixins/map";			// Google Maps
-@import "core/mixins/menu";			// Menu Customized
-@import "core/mixins/proportion";	// Proportion and Appearance
-@import "core/mixins/utilis";	// Proportion and Appearance
-// utilies
-// @import "core/base/vars";
-
-// Vendors
-/* @import "vendors/sidr";
-@import "vendors/slick";
-@import "vendors/slick-theme"; */
-
-@import "core/mixins/bg";
-@import "core/mixins/break-points.scss";
-@import "modules/main-header.scss";
-@import "modules/show-services.scss";
-@import "modules/main-content.scss";
-@import "modules/footer.scss";
+@import "core/base/vars";
+@import "core/mixins/bp";
+/* @import "core/mixins/break-points"; */
+@import "modules/main-header";
+@import "modules/show-services";
+@import "modules/main-content";
+@import "modules/footer";

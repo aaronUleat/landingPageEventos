@@ -1,32 +1,80 @@
 .show-services {
 
+	@include breakpoint(mobileonly) {
+			
+			.container {
+				padding-left: 0px;
+				padding-right: 0px;
+			}
 
-	.col-md-4 {
-		padding: 0;
-
-		&:hover {
-			transform: scaleX(1.1) scaleY(1.1);
-        	transition: all 0.3s ease-in;
-        	z-index: 1000;
 		}
-		
 
-		img {
-			max-height: 555px;
+	.container {
+		.row{
 
-			img {
-				max-height: 555px;
+			
+
+			@include breakpoint(mobileonly) {
+				.serv {
+					img {
+						height: 180px;
+					}
+				}
+			}
+
+
+			@include breakpoint(phablet) {
+				.serv {
+					img {
+						height: 347px;
+					}
+				}
+			}
+
+
+
+
+			@include breakpoint(tablet) {
+				.serv {
+					img {
+						height: 460px;
+					}
+				}
+			}
+
+
+			@include breakpoint(laptop) {
+				.serv {
+					img {
+						height: 560px;
+					}
+				}
+			}
+
+
+			.serv {
+				
+				padding: 0px;
+
+				&:hover {
+					transform: scaleX(1.02) scaleY(1.1);
+		        	transition: all 0.3s ease-in;
+		        	z-index: 1000;
+				}
+
+
+				img {
+					width: 100%;
+				}
+			}
+
+			.serv:nth-child(1) {
+				padding-left: 15px;
+			}
+
+			.serv:nth-child(3) {
+				padding-right: 15px;
 			}
 		}
-		
-	}
-
-	.col-md-4:nth-child(1) {
-		padding-left: 15px;
-	}
-
-	.col-md-4:nth-child(3) {
-		padding-right: 15px;
 	}
 }
-
